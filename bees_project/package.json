@@ -1,0 +1,23 @@
+{
+  "name": "bees-telegram-bot",
+  "version": "1.0.0",
+  "description": "Образовательный Telegram-бот о пчёлах на русском языке",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "telegraf": "^4.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["telegram", "bot", "bees", "education", "russian"],
+  "author": "",
+  "license": "MIT"
+}
